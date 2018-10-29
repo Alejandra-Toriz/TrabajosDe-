@@ -1,0 +1,381 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf600
+{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;\f1\fswiss\fcharset0 Helvetica;\f2\fswiss\fcharset0 ArialMT;
+\f3\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red52\green52\blue52;\red0\green0\blue0;\red7\green7\blue7;
+\red255\green255\blue255;\red23\green23\blue23;\red30\green30\blue211;\red21\green39\blue217;\red163\green0\blue3;
+\red78\green162\blue29;\red20\green154\blue139;\red245\green174\blue9;\red230\green0\blue14;}
+{\*\expandedcolortbl;;\cssrgb\c26494\c26499\c26494;\cssrgb\c0\c0\c0;\cspthree\c2071\c2071\c2071;
+\cssrgb\c100000\c100000\c100000;\cspthree\c12071\c12071\c12071;\cspthree\c17682\c22892\c82723;\cspthree\c14862\c26209\c84768;\cssrgb\c70822\c9133\c0;
+\cspthree\c44315\c67250\c24837;\cssrgb\c0\c65959\c61527;\cssrgb\c97413\c73060\c0;\cssrgb\c93213\c13483\c4656;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa360\partightenfactor0
+
+\f0\b\fs36 \cf2 \expnd0\expndtw0\kerning0
+FIREBASE
+\b0\fs28 \cf3 \kerning1\expnd1\expndtw5
+\
+\pard\pardeftab720\sl288\slmult1\partightenfactor0
+
+\fs24 \cf3 \expnd0\expndtw0\kerning0
+Notas antes de la clase:
+\f1 \
+\pard\tx791\pardeftab791\partightenfactor0
+
+\f2\fs32 \cf4 \cb5  ingresos pasivos: no hacer nada, capacitar, servidores  ganas tiempo buenos empresarios
+\fs24 \
+
+\fs32  
+\fs24 \
+
+\fs32  ingresos activos: godines
+\f1\fs24 \cf3 \
+\pard\tx791\pardeftab791\partightenfactor0
+
+\f3 \cf6  
+\f1 \
+
+\f3  \cf7 COCOA PODS\cf6 :
+\f1 \
+
+\f3  
+\f1 \
+
+\f3  Programaci\'f3n de alto impacto: aplicaci\'f3n que no puede dejar de estar enganchado
+\f1 \
+
+\f3  EJEMPLO: FACEBOOK QUE SE ACTUALIZA SOLITO
+\f1 \
+
+\f3  
+\f1 \
+\pard\tx791\pardeftab791\partightenfactor0
+
+\f3 \cf8  TODOS los servidores son de tipo REST
+\f1 \
+\pard\tx791\pardeftab791\partightenfactor0
+
+\f3 \cf6  servidores que manejan un API: actividades como: Update, Get, (Recupera informaci\'f3n), Post, Delete
+\f1 \
+
+\f3  
+\f1 \
+
+\f3  App con estado: uno debe solicitar siempre informaci\'f3n al servidor
+\f1 \
+
+\f3  
+\f1 \
+
+\f3  lO mejor es que el servidor se actualice solo: es decir que en vez de solicitar la informaci\'f3n, el servidor nos la proporcione cada que ocurre un cambio, eso a trav\'e9s de establecer un "hilo"  de comunicaci\'f3n (acciones push) con la app a trav\'e9s de una subscripci\'f3n
+\f1 \
+
+\f3  
+\f1 \
+
+\f3  controladores: si ven que en el modelo las cosas cambian
+\f1 \
+
+\f3  
+\f1 \
+
+\f3  
+\f1 \
+
+\f3  Localmente se tiene un MVC modelo vista controlador:
+\f1 \
+
+\f3  
+\f1 \
+
+\f3  Si cambia informaci\'f3n publica, se cambia el modelo (por un observador (encargado de supervisar si se realizan cambios, ejemplo_: UBER, que constantemente cambia la ubicaci\'f3n) que le avisa al controlador que ordenA cambiar la vista)
+\f1 \
+
+\f3  
+\f1 \
+
+\f3  El ser humano crea: COCOA PODS
+\f1 \
+
+\f3  
+\f1 \
+
+\f3  iniciativa cuyo objetivo es alojar bibliotecas en internet, un repositorio de softwere
+\f1 \
+
+\f3  
+\f1 \
+
+\f3  
+\f1 \
+
+\f3  Al ir A FIREBASE ENTRAR A SU PAGINA  e ir a la consola para crear un nuevo proyecto
+\f1 \
+
+\f3  
+\f1 \
+
+\f3  A/B como se ven las app
+\f1 \
+
+\f3  
+\f1 \
+\
+
+\f3  Una vez en la pagina de inicio dar click en IOS
+\f1 \
+
+\f3  
+\f1 \
+
+\f3 com.chapulab.FirebaseTest \cf9 ** aparece en el foldersito azul en los proyectos para registrar app
+\f1 \cf6 \
+
+\f3  
+\f1 \
+
+\f3  una vez registrada hay que descargar un archivo que dice c\'f3mo se comunicara
+\f1 \
+
+\f3  
+\f1 \
+
+\f3  arrastrar a launch s
+\f1 \
+
+\f3  
+\f1 \
+
+\f3  seleccionar tres todo, de la opcional la segunda
+\f1 \
+
+\f3  
+\f1 \
+\pard\tx791\pardeftab791\partightenfactor0
+
+\f3 \cf9  Cosas importantes dentro del archivito:
+\f1 \
+\pard\tx791\pardeftab791\partightenfactor0
+
+\f3 \cf6    - API_KEY NO SE TOCA te da acceso a todo
+\f1 \
+
+\f3    - Storage Bucked: Archivos im\'e1genes o videos
+\f1 \
+
+\f3    - Client ID: Ayuda a personalizar el servicio con llaves de apple
+\f1 \
+
+\f3    - Google Apple ID: Ayuda a que apple te de acceso a la aplicaci\'f3n
+\f1 \
+
+\f3    - DataBase URL: pagina web con la que me voy a conectar
+\f1 \
+
+\f3  
+\f1 \
+
+\f3  Dar siguiente en la pagina web, hay que instalar el SDK: single
+\f1 \
+
+\f3  
+\f1 \
+
+\f3  Siempre debe haber dos directorios: direcci\'f3n y la app(c\'f3digo)
+\f1 \
+
+\f3  
+\f1 \
+
+\f3  ctrl x para salir despu\'e9s de podfile
+\f1 \
+
+\f3  
+\f1 \
+\pard\tx791\pardeftab791\partightenfactor0
+
+\f3 \cf9  Copia de la consola
+\f1 \
+\pard\tx791\pardeftab791\partightenfactor0
+
+\f3 \cf6  
+\f1 \
+
+\f3  \cf10 Last login: Mon Oct 29 15:09:48 on console
+\f1 \
+\pard\tx791\pardeftab791\partightenfactor0
+
+\f3 \cf10  MacBook-23:~ macbook$ \cf11 pwd
+\f1 \cf10 \
+
+\f3  /Users/macbook
+\f1 \
+
+\f3  MacBook-23:~ macbook$ \cf11 cd\cf10  /Users/macbook/Desktop/FirebaseTest \cf9 **arrartrar carpeta del proyecto desde finder
+\f1 \cf10 \
+
+\f3  MacBook-23:FirebaseTest macbook$ \cf11 pwd \cf10  \cf9 ** comprueba
+\f1 \cf10 \
+
+\f3  /Users/macbook/Desktop/FirebaseTest
+\f1 \
+
+\f3  MacBook-23:FirebaseTest macbook$ \cf11 ls
+\f1 \cf10 \
+
+\f3  FirebaseTest        FirebaseTest.xcodeproj
+\f1 \
+
+\f3  MacBook-23:FirebaseTest macbook$ \cf11 pod init\cf10  \cf9 **me crea el archivo
+\f1 \
+
+\f3 \cf10  MacBook-23:FirebaseTest macbook$ \cf11 ls-l
+\f1 \cf10 \
+
+\f3  -bash: ls-l: command not found
+\f1 \
+
+\f3  MacBook-23:FirebaseTest macbook$ \cf11 ls -l
+\f1 \cf10 \
+
+\f3  total 8
+\f1 \
+
+\f3  drwxr-xr-x  8 macbook  staff  256 Oct 29 16:20 FirebaseTest
+\f1 \
+
+\f3  drwxr-xr-x@ 5 macbook  staff  160 Oct 29 16:20 FirebaseTest.xcodeproj
+\f1 \
+
+\f3  -rw-r--r--  1 macbook  staff  263 Oct 29 16:39 Podfile
+\f1 \
+
+\f3  MacBook-23:FirebaseTest macbook$ \cf11 nano Podfile \cf10    \cf9 **para editar\cf10  ver nota
+\f1 \
+
+\f3  MacBook-23:FirebaseTest macbook$
+\f1 \
+
+\f3  MacBook-23:FirebaseTest macbook$\cf11  pod install\cf10   \cf9 **se instala
+\f1 \cf10 \
+\pard\tx791\pardeftab791\partightenfactor0
+
+\f3 \cf12  Analyzing dependencies
+\f1 \
+
+\f3  Downloading dependencies
+\f1 \
+
+\f3  Installing Firebase (5.8.0)
+\f1 \
+
+\f3  Installing FirebaseAnalytics (5.1.2)
+\f1 \
+
+\f3  Installing FirebaseCore (5.1.3)
+\f1 \
+
+\f3  Installing FirebaseInstanceID (3.2.1)
+\f1 \
+
+\f3  Installing GoogleAppMeasurement (5.1.2)
+\f1 \
+
+\f3  Installing GoogleUtilities (5.2.3)
+\f1 \
+
+\f3  Installing nanopb (0.3.8)
+\f1 \
+
+\f3  Generating Pods project
+\f1 \
+
+\f3  Integrating client project
+\f1 \
+
+\f3  
+\f1 \
+
+\f3  [!] Please close any current Xcode sessions and use `FirebaseTest.xcworkspace` for this project from now on.
+\f1 \
+
+\f3  Sending stats
+\f1 \
+
+\f3  Pod installation complete! There is 1 dependency from the Podfile and 7 total pods installed.
+\f1 \
+
+\f3  
+\f1 \
+
+\f3  [!] Automatically assigning platform `ios` with version `11.4` on target `FirebaseTest` because no platform was specified. Please specify a platform for this target in your Podfile. See `https://guides.cocoapods.org/syntax/podfile.html#platform`.
+\f1 \
+\pard\tx791\pardeftab791\partightenfactor0
+
+\f3 \cf10  MacBook-23:FirebaseTest macbook$ nano Podfile
+\f1 \
+
+\f3  MacBook-23:FirebaseTest macbook$
+\f1 \
+
+\f3  
+\f1 \
+\pard\tx791\pardeftab791\partightenfactor0
+
+\f3 \cf6  
+\f1 \
+
+\f3  
+\f1 \
+\pard\tx791\pardeftab791\partightenfactor0
+
+\f3 \cf13  NOTA:
+\f1 \
+\pard\tx791\pardeftab791\partightenfactor0
+
+\f3 \cf6  SE ABRE ESTE ARCHIVO:
+\f1 \
+
+\f3  
+\f1 \
+
+\f3  Uncomment the next line to define a global platform for your project
+\f1 \
+
+\f3  # platform :ios, '9.0'
+\f1 \
+
+\f3  
+\f1 \
+
+\f3  target 'FirebaseTest' do
+\f1 \
+
+\f3  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+\f1 \
+
+\f3  use_frameworks!
+\f1 \
+
+\f3  
+\f1 \
+
+\f3  # Pods for FirebaseTest
+\f1 \
+
+\f3  \cf11 pod 'Firebase/Core'\cf6   \cf9 ** Se agrega esta linea de codigo NOTA 2
+\f1 \cf6 \
+
+\f3  end
+\f1 \
+
+\f3  
+\f1 \
+
+\f3  
+\f1 \
+
+\f3  
+\f1 \
+
+\f3  \cf9 NOTA 2:\cf6  esa linea se puede ver en la pagina de Firebase en el apartado para a\'f1adir el SDK}
